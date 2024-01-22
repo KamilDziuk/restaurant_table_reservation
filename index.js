@@ -6,8 +6,7 @@ const { error } = require('console');
 const { title } = require('process');
 const mongoose = require('mongoose');
 const Reservation = require('./models/reservations');
-// mongodb+srv://server583232_hollapollaReservations:Fq3QeIfyBnksOJp8@cluster0.f6ckz3r.mongodb.net/
-mongoose.connect('mongodb://<server583232_hollapollaReservations>:<Fq3QeIfyBnksOJp8>@<mongodb.server583232.nazwa.pl>:<4192>/table_reservations')
+mongoose.connect('mongodb://127.0.0.1:27017/table_reservations')
 
 .then(() =>
 {
